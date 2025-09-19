@@ -1,0 +1,92 @@
+{
+  "books": [
+    {
+      "id": "c98f",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year": 1954,
+      "status": "Available"
+    },
+    {
+      "id": "4b16",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year": 1945,
+      "status": "Issued"
+    },
+    {
+      "id": "512f",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Classic",
+      "year": 1847,
+      "status": "Available"
+    },
+    {
+      "id": "118a",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "genre": "Classic",
+      "year": 1851,
+      "status": "Available"
+    },
+    {
+      "id": "d8a1",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Classic",
+      "year": 1956,
+      "status": "Available"
+    },
+    {
+      "id": "49dd",
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "year": 1997,
+      "status": "Available"
+    },
+    {
+      "id": "ce4a",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "year": 1925,
+      "status": "Available"
+    },
+    {
+      "id": "449e",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Horror",
+      "year": 1963,
+      "status": "Issued"
+    },
+    {
+      "id": "cbfa",
+      "title": "The Hobbit",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year": 1956,
+      "status": "Available"
+    },
+    {
+      "id": "f84a",
+      "title": "Tom and Jerry",
+      "author": "William Hanna",
+      "genre": "Comic",
+      "year": 1987,
+      "status": "Issued"
+    },
+    {
+      "title": "Dragon Balls Z",
+      "author": "George Henry T",
+      "genre": "Comic",
+      "year": 1964,
+      "status": "Available",
+      "id": "e2f9"
+    }
+  ]
+}

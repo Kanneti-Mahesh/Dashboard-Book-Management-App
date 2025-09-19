@@ -1,42 +1,12 @@
-# Dashboard-Book-Management-App
+# React + Vite
 
-🔹 Objective:
-Build a responsive React.js dashboard that fetches, displays, and allows CRUD operations on a
-list of books using a mock JSON-server API.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-# 1. Home Page (Dashboard)
-○ List of books displayed in a table/grid view.  **Completed**
-○ Each book should show: Title, Author, Genre, Published Year, and Status   **Completed**
-(Available/Issued)
-○ Include pagination (10 books per page).   **Completed**
-○ Search by title or author.    **Completed**
-○ Filters for genre/status (dropdowns or tabs).   **Completed**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# 2. Add/Edit Book Modal/Form
-○ Modal or separate route to add or edit a book.    **Completed**
-○ Form validations using react-hook-form or Formik.   **Completed** [Formik]
-○ On submit, send data to the API.    **Completed** [JSON-Server]
+## Expanding the ESLint configuration
 
-# 3. Delete Book
-○ Confirmation popup before deletion.  **Completed**
-○ Show toast notifications for success/error actions.  **Completed**  [react-hot-toast]
-
-# 4. Styling/Design
-○ Use any UI library like Material UI, Ant Design, or Tailwind CSS   **Completed**  [Tailwind CSS]
-○ Ensure responsiveness and UX best practices.  **Completed** 
-
-# API Integration:
-Use the following fake API for testing:   **Completed**  [JSON-SERVER]
-https://crudcrud.com (or alternatively https://reqres.in or set up a mock API using json-server)
-● GET /books   **Completed** 
-● POST /books    **Completed** 
-● PUT /books/:id    **Completed** 
-● DELETE /books/:id   **Completed** 
-
-
-# 🔹 Bonus Points:
-● Implement loading skeletons or spinners during data fetching.   **Completed**  [Spinner in Tailwind CSS]
-● Use Redux or Context API for state management (if needed).    **Completed**   [Context-API]
-● Use React Router for navigation.           ****Completed** **    [BrowserRouter in react-router-dom]
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
